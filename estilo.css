@@ -1,0 +1,73 @@
+body {
+    min-height: 100%;
+    background-image: linear-gradient(0deg,limegreen,LemonChiffon,SkyBlue) ;
+    font-size: 20px;
+    margin: 0px 20px 0px 20px
+}
+
+html {
+    min-height: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+#logomarca {
+    background-color: #f5a92230;
+    box-shadow: 4px 4px 4px #0003;
+    padding: 30px;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+.curiosidade{
+    width: 95vw;
+    background-image: url("./imgs/favo-de-mel.png");
+    float:left;
+    margin: 10px 20px 10px 10px;
+    border: 1px solid #f5a922;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+
+img.casta-de-abelha{
+    border:5px double #f5a922;
+    border-radius: 50%;
+}
+
+#zangao{
+    float: right;
+    margin-left: 20px;
+
+}
+
+#operaria,#rainha{
+    float: left;
+    margin-right: 20px;
+}
+
+a:link {
+    color: blue;  /* [a] */
+}
+a:hover {
+    color: cyan;  /* [b] */
+}
+a:active {
+    color: gold;  /* [c] */
+}
+a:visited {
+    color: gray;  /* [d] */
+}
+
+a[href^="http"] {       /* href começa com http */
+    color: purple;
+}
+p:last-of-type{
+    float: right;
+}
+
+img:not([alt]){
+    border: 5px solid red !important;
+}
